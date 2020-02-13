@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrays-JavaScript</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var arr=[];     //this line represents this is array declaration
+
+        for(var i=0;i<10;i++)
+        {
+            arr[i]=i;
+        }
+
+        document.writeln("<h1>"+arr+"</h1>");
+
+
+        var cars=['Tesla','SpaceX','HyperLoop']
+        cars.push('Neuralink');     //inserting elements into array
+
+        document.writeln(cars);
+
+        cars.length     //it returns the length of an array
+        document.write("<h6>"+cars.length+"</h6>");
+    </script>
+</body>
+</html>
